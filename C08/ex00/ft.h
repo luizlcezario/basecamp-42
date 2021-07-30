@@ -1,30 +1,22 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft.h                                               :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: llima-ce <llima-ce@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/22 14:52:47 by llima-ce          #+#    #+#             */
-/*   Updated: 2021/07/30 19:29:49 by llima-ce         ###   ########.fr       */
+/*   Created: 2021/07/30 14:00:30 by llima-ce          #+#    #+#             */
+/*   Updated: 2021/07/30 14:00:31 by llima-ce         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+#ifndef FT_H
+# define FT_H
 
+void	ft_putchar(char c);
+void	ft_swap(int *a, int *b);
+void	ft_putstr(char *str);
+int		ft_strlen(char *str);
+int		ft_strcmp(char *s1, char *s2);
 
-int ft_atoi(char *str);
-int main () {
-   int val;
-   char str[20];
-   
- 	 strcpy(str, "    ---++--1234ab567");	
-   val = atoi(str);
-   printf("String value = %s, Int value = %d\n", str, val);
-	val = ft_atoi(str);
-   printf("String value = %s, Int value = %d\n", str, val);
-   return(0);
-
-}
+#endif

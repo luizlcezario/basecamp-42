@@ -6,7 +6,7 @@
 /*   By: llima-ce <llima-ce@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/21 16:18:15 by llima-ce          #+#    #+#             */
-/*   Updated: 2021/07/28 02:43:12 by llima-ce         ###   ########.fr       */
+/*   Updated: 2021/07/30 18:58:56 by llima-ce         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,10 +16,6 @@
 char	*ft_strstr(char *str, char *to_find)
 {
 	int	a;
-//
-//	str = ola mundo 2k
-// 	to find = mu\0
-//
 	if (*to_find == 0 )
 		return (str);
 	else

@@ -6,7 +6,7 @@
 /*   By: llima-ce <llima-ce@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/26 15:59:05 by llima-ce          #+#    #+#             */
-/*   Updated: 2021/07/28 06:32:18 by llima-ce         ###   ########.fr       */
+/*   Updated: 2021/07/30 00:49:44 by llima-ce         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,17 +17,11 @@
 
 int main(int argc,char **argv,char *env)
 {
-	char *str = {teste};
+	char *str = ;
 	int a;
-	{
-	 	0{./a.out},
-		1{teste},
-		2{1, 1, 21, 31}
-	}
 
 	if(argc >= 0)
 	{
-		a = argv[0][3];
 		a = 0;
 		while(str[a] != 0)
 		{

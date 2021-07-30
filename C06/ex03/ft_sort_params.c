@@ -6,13 +6,28 @@
 /*   By: llima-ce <llima-ce@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/26 16:06:40 by llima-ce          #+#    #+#             */
-/*   Updated: 2021/07/27 23:57:15 by llima-ce         ###   ########.fr       */
+/*   Updated: 2021/07/29 17:27:11 by llima-ce         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include <unistd.h>
 
 void	ft_sort_int_tab(char **tab, int size);
+void ft_print(char *str);
+
+int main(int argc,char **argv)
+{
+	
+	ft_sort_int_tab(argv, argc );
+	while(0 < argc -1)
+	{
+		ft_print(argv[argc - 1]);
+		argc--;
+	}
+	return (0);
+}
+
+
 void ft_print(char *str)
 {
 	int b;
@@ -26,17 +41,6 @@ void ft_print(char *str)
 		write(1, "\n", 1);
 }
 
-int main(int argc,char **argv)
-{
-	
-	ft_sort_int_tab(argv, argc );
-	while(0 < argc -1)
-	{
-		ft_print(argv[argc - 1]);
-		argc--;
-	}
-	return (0);
-}
 
 int	ft_strcmp(char *s1, char *s2)
 {

@@ -6,7 +6,7 @@
 /*   By: llima-ce <llima-ce@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2021/07/21 00:57:51 by llima-ce          #+#    #+#             */
-/*   Updated: 2021/07/27 18:55:33 by llima-ce         ###   ########.fr       */
+/*   Updated: 2021/07/30 03:04:30 by llima-ce         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,14 +16,12 @@
 
 int	ft_strcmp(char *s1, char *s2)
 {
-	//luiz
-	//Paulo 92183128793193 => b ==
 	while (*s1 == *s2 && *s1 != 0)
 	{
 		++s1;
 		++s2;
 	}
-	return (*s1 - *s2);
+	return ((unsigned int)*s1 - (unsigned int)*s2);
 }
 int main()
 {

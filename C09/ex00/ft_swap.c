@@ -1,30 +1,20 @@
 /* ************************************************************************** */
 /*                                                                            */
 /*                                                        :::      ::::::::   */
-/*   main.c                                             :+:      :+:    :+:   */
+/*   ft_swap.c                                          :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
 /*   By: llima-ce <llima-ce@student.42sp.org.br>    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2021/07/22 14:52:47 by llima-ce          #+#    #+#             */
-/*   Updated: 2021/07/30 19:29:49 by llima-ce         ###   ########.fr       */
+/*   Created: 2021/07/18 01:40:13 by llima-ce          #+#    #+#             */
+/*   Updated: 2021/07/29 23:19:33 by llima-ce         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <stdio.h>
-#include <stdlib.h>
-#include <string.h>
+void	ft_swap(int *a, int *b)
+{
+	int	tmp;
 
-
-int ft_atoi(char *str);
-int main () {
-   int val;
-   char str[20];
-   
- 	 strcpy(str, "    ---++--1234ab567");	
-   val = atoi(str);
-   printf("String value = %s, Int value = %d\n", str, val);
-	val = ft_atoi(str);
-   printf("String value = %s, Int value = %d\n", str, val);
-   return(0);
-
+	tmp = *b;
+	*b = *a;
+	*a = tmp;
 }
