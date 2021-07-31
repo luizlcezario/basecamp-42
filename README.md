@@ -1,27 +1,25 @@
 
 <div>
 <p align="center">
-   <img src="./.github/logo.png" alt="Github-Explorer" width="500"/>
+   <img src="./.github/42.png" alt="Github-Explorer" width="500"/>
 </p>
 </div>
 <p align="center">	
    <a href="https://www.linkedin.com/in/luiz-lima-cezario/">
-      <img alt="Luiz Cezario" src="https://img.shields.io/badge/-luizCezario-126936?style=flat&logo=Linkedin&logoColor=white" />
+      <img alt="Luiz Cezario" src="https://img.shields.io/badge/-luizCezario-682998?style=flat&logo=Linkedin&logoColor=white" />
    </a>
 
-  <a aria-label="Completed" href="https://bcc.ufabc.edu.br/">
-    <img src="https://img.shields.io/badge/UFABC-BCC-126936?logo=github"></img>
+  <a aria-label="Completed" href="https://www.42sp.org.br/">
+    <img src="https://img.shields.io/badge/42.sp-Basecamp-682998?logo="></img>
   </a>
-  <a href="https://github.com/luizlcezario/Processamento-da-Informacao-Ufabc/commits/master">
-    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/luizlcezario/Processamento-da-Informacao-Ufabc?color=126936">
+  <a href="https://github.com/luizlcezario/basecamp-42/commits/master">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/luizlcezario/basecamp-42?color=682998">
   </a> 
-  <img alt="License" src="https://img.shields.io/badge/license-MIT-126936">
+
   <a href="https://github.com/luizlcezario/N/stargazers">
-    <img alt="Stargazers" src="https://img.shields.io/github/stars/luizlcezario/Processamento-da-Informacao-Ufabc?color=126936&logo=github">
+    <img alt="Stargazers" src="https://img.shields.io/github/stars/luizlcezario/basecamp-42?color=682998&logo=github">
   </a>
 </p>
-
-
 
 <div align="center">
   <sub>Basecamp da 42. Feito com ❤︎ por
@@ -33,10 +31,9 @@
 
 # :pushpin: Tabela de Conteúdo
 
+* [Oque é esse Repo?](#computer-tecnologias)
+* [Como foi a Experiencia?](#computer-tecnologias)
 * [Tecnologias](#computer-tecnologias)
-* [Aulas](#rocket-Aulas)
-  * [exercicios 1.0](##Exercicios)
-  * [exercicios 2.0](##Exercicios)
 * [Como rodar](#construction_worker-como-rodar)
 * [Encontrou um bug? Ou está faltando uma feature?](#bug-problemas)
 * [Licença](#closed_book-Licença)
@@ -44,50 +41,30 @@
 # :computer: Tecnologias
 Esse projeto foi feito utilizando as seguintes tecnologias:
 
-* [Python](https://www.python.org/)      
-
-# :rocket: Aulas
-
-Exercicios e aulas Criados pela Professora [Carla Negri](http://professor.ufabc.edu.br/~carla.negri/) da Ufabc
-  ## Exercicios 1.0
-  Esses exercícios tinham a regra de que não podiam ser feitos usando variáveis condicionais e de repetição.
-  * **t01-p01:**
-  <img src="./.github/ex1.png" width="700">
-  
-  * **t01-p02:**
-  <img src="./.github/ex2.png" width="700">
-  
-  * **t01-p03:**
-  <img src="./.github/ex3.png" width="700">
-
-  ## Exercicios 2.0
-
-  * **t02-p01:**
-  <img src="./.github/ex4.png" width="700">
-  
-  * **t02-p02:**
-  <img src="./.github/ex5.png" width="700">
-  
-  * **t02-p03:**
-  <img src="./.github/ex6.png" width="700">
-
+* [C](https://devdocs.io/)      
+* [Shell](https://unixguide.readthedocs.io/en/latest/unixcheatsheet/)      
+* [gcc]((https://terminaldeinformacao.com/2015/10/08/como-instalar-e-configurar-o-gcc-no-windows-mingw/))
 
 # :construction_worker: Como rodar
 ```bash
 # Clone o Repositoria
-$ git clone https://github.com/luizlcezario/Processamento-da-Informacao-Ufabc.git
+$ git clone https://github.com/luizlcezario/basecamp-42.git
 
 # Vá para a pasta do servidor
-$ cd Processamento-da-Informacao-Ufabc 
+$ cd basecamp-42 
 
-# Rode os scripts um por um e vá testando de acordo com os enunciados a cima
-$ & "C:/.../Processamento-da-Informacao-Ufabc/.../(...).py"
+# para os programas em c é necessário ter um compilador como o gcc instalado apos vc rodara
+$ gcc -Wall -Wextra -Werror *.c
+
+#para os arquivos em shell com final .sh basta
+$ bash *.sh
+
 ```
 
 
 # :bug: Problemas
 
-Fique a vontade **para criar uma nova issue** com o respectivo titulo e descrição na página de issues do [Processamento da Informacao Ufabc](https://github.com/luizlcezario/Processamento-da-Informacao-Ufabc/issues) Repositorio. Se você já encontrou a solução para o problema, **Eu amaria fazer o review do seu pull request**!
+Fique a vontade **para criar uma nova issue** com o respectivo titulo e descrição na página de issues do [basecamp](https://github.com/luizlcezario/basecamp-42/issues) Repositorio. Se você já encontrou a solução para o problema, **Eu amaria fazer o review do seu pull request**!
 
 # :closed_book: Licença
 
