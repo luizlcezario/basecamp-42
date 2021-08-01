@@ -40,7 +40,7 @@
 
 # :camping: O que é Basecamp da 42?
 
-O Basecamp é uma proposta de processo seletivo para a entra na 42 São Paulo esse processo inicialmente era ao vivo porém após a pandemia ela passou a ser online, nesse processo e proposto vários listas e 2 rushs alem de 3 exames, as listas sao exercicios sobre shell e sobre c que te levam aprender oqeu sera usado nos outros projetos, os exames sao todos em c a cada uma e mais dificil que a outra, os rushs sao um bem facil e outro muito dificil diria quase impossivel, acredito que o ideal seja fazer ate a lista 6 mais o menos e tentar ir melhor sempre nas provas, alem disso tente pegar as medalhas de help parecem ser bem importante.
+O Basecamp é uma proposta de processo seletivo para a entra na 42 São Paulo esse processo inicialmente era ao vivo porém após a pandemia ela passou a ser online, nesse processo e proposto vários listas e 2 rushs alem de 3 exames, as listas sao exercicios sobre shell e sobre c que te levam aprender oqeu sera usado nos outros projetos, os exames sao todos em c a cada uma e mais dificil que a outra, os rushs sao um bem facil e outro muito dificil diria quase impossivel, acredito que o ideal seja fazer ate a lista 6 mais o menos e tentar ir melhor sempre nas provas, alem disso tente pegar as medalhas de helper parecem ser bem importante.
 
 # :sparkles: Como foi a experiencia do basecamp?
 

@@ -38,7 +38,6 @@ int Condition(int row, int col,int num)
 {
 	int row_alto = row / 2;
 	int row_lado = (col / 2) + 2;
- oooo
 	if (row == 0 || row == 3)
 	{
 		if (g_matrix[row_alto][col] == 4 && num != 1)
@@ -47,8 +46,7 @@ int Condition(int row, int col,int num)
 			return (1);
 		if (g_matrix[row_alto][col] == 3 && num != 1 && num != 2)
 			return (1);
-	}if (col == 0 || col
-	 == 3)
+	}if (col == 0 || col == 3)
 	{
 		if (g_matrix[row_lado][row] == 4 && num != 1)	
 			return (1);
@@ -69,41 +67,11 @@ int Condition(int row, int col,int num)
 		if(((g_matrix[0][col] == 3) || (g_matrix[2][row] == 3)) && ((g_matrix[1][col] == 3) || (g_matrix[3][row] == 3) )&& num != 2)
 			return(1);
 	}
-	0 2 2 0
-
-	0 2 2 0
-	if ((row == 0 && col == 1) ||
-	(row == 0 && col == 2) ||
-	(row == 3 && col == 1) ||
-	(row == 3 && col == 2))
-	{
-		if  (g_matrix[row_lado][row] == 4 && num != 2 )
-				return (1);
-		if ((g_matrix[row_alto][col] == 3 && g_matrix[row_lado][row] == 3)  && num != 1 && num != 2)
-				return (1);
-		
-	}
-	 if  ((row == 1 && col == 0) ||
-	(row == 2 && col == 3) ||
-	(row == 2 && col == 0)||
-	(row == 1 && col == 3)) 
-	{
-		if  (g_matrix[row_alto][row] == 4 && num != 2)
-				return (1);
-		if ((g_matrix[row_alto][col] == 3 && g_matrix[row_lado][row] == 3)  && num != 1 && num != 2)
-				return (1);
-	}
 	if  (row != 0 && col != 0 &&
 	row != 3 && col != 3)
 	{			
 		if ((g_matrix[row_alto][col] == 4 || g_matrix[row_lado][row] == 4)  && num != 2)
 				return (1);
-		if ((g_matrix[row_alto][col] == 2 &&  g_matrix[row_lado][row] == 3)  && num != 3 && num != 2)
-				return (1);
-		if ((g_matrix[row_alto][col] == 3 &&  g_matrix[row_lado][row] == 2)  && num != 3 && num != 2)
-				return (1);
-		if ((g_matrix[row_alto][col] == 3 || g_matrix[row_lado][row] == 3)  && num != 2 && num != 1 && num != 3 )
-			return (1);
 	}
   return (0);
 }

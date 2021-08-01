@@ -13,14 +13,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <unistd.h>
-//	funcoes permitidas 
-// 	write , malloc , free
-//	1.ok receber as colocaoes up down left right 
-// 	2.ok recriar alloc
-// 	3.ok lidar com erros na entrada de dados 
-//	3. calculate re result 
-// 	4. lidar com erros 
-//						collup 		colldown	collleft		colrigth
+
 int	ft_atoi(char *str);
 int	Create_matrix_to_solution(char *str);
 int	rush01(int resMatris[4][4]);
