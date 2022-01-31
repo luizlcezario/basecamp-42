@@ -44,7 +44,7 @@ O Basecamp é uma proposta de processo seletivo para a entra na 42 São Paulo es
 
 # :sparkles: Como foi a experiencia do basecamp?
 
-Em Breve ...
+Foi Maravilhoso fiz amizades para vida toda, conheci pessoas incriveis, a convivencia diaria com pessoas mesmo sendo online me ajudou muito durante a pandemia e foi muito bom pro meu em estar, alem de eu ter aprendido mais sobre C e shell nessas 3 semanas do que na minha vida toda , so com o basecamp ja sinto que consigo um emprego em qualquer lugar, eu entre e agora me sinto mais ainda preparado vc entrando ou nao e uma experiencia incrivel vale muito a pena!
 
 # :computer: Tecnologias
 
